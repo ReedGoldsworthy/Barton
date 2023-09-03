@@ -85,7 +85,7 @@ window.onload = function () {
   canvas.addEventListener("mousewheel", handleScroll, false);
 };
 
-gkhead.src = "Juan&Sita.jpg";
+gkhead.src = "family.jpg";
 
 // Adds ctx.getTransform() - returns an SVGMatrix
 // Adds ctx.transformedPoint(x,y) - returns an SVGPoint
