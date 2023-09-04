@@ -17,8 +17,8 @@ window.onload = function () {
     var p2 = ctx.transformedPoint(canvas.width, canvas.height);
     ctx.clearRect(p1.x, p1.y, p2.x - p1.x, p2.y - p1.y);
 
-    // ctx.drawImage(gkhead, -6000, -5000);
-    ctx.drawImage(gkhead, 0, 0);
+    ctx.drawImage(gkhead, -6000, -5000);
+    // ctx.drawImage(gkhead, 0, 0);
   }
 
   redraw();
