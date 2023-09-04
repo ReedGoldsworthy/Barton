@@ -86,7 +86,7 @@ window.onload = function () {
   canvas.addEventListener("mousewheel", handleScroll, false);
 };
 
-gkhead.src = "images/juan.PNG";
+gkhead.src = "images/juan.png";
 
 // Adds ctx.getTransform() - returns an SVGMatrix
 // Adds ctx.transformedPoint(x,y) - returns an SVGPoint
