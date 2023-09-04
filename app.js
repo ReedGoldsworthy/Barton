@@ -17,7 +17,7 @@ window.onload = function () {
     var p2 = ctx.transformedPoint(canvas.width, canvas.height);
     ctx.clearRect(p1.x, p1.y, p2.x - p1.x, p2.y - p1.y);
 
-    ctx.drawImage(gkhead, -8000, -7000);
+    ctx.drawImage(gkhead, -6000, -5000);
   }
 
   redraw();
@@ -85,7 +85,7 @@ window.onload = function () {
   canvas.addEventListener("mousewheel", handleScroll, false);
 };
 
-gkhead.src = "family.jpg";
+gkhead.src = "images/family.jpg";
 
 // Adds ctx.getTransform() - returns an SVGMatrix
 // Adds ctx.transformedPoint(x,y) - returns an SVGPoint
